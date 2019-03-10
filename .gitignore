@@ -1,3 +1,2 @@
 App_Data
-/node_modules/*
-.travis.yml
+node_modules
