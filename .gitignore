@@ -1,0 +1,12 @@
+App_Data/*
+node_modules/*
+vendor/*
+.travis.yml
+gulpfile.js
+LICENSE
+package.json
+package-lock.json
+packages.config
+Web.config
+Web.Debug.config
+website.publishproj
