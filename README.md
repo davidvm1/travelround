@@ -6,7 +6,7 @@
 
 **Correo:** david.vieira@upb.edu.co
 
-##Descripción: 
+**Descripción:** 
 
 Proyecto de desarrollo de aplicación para viajeros con funciones de
 organización de información y optimización de esto de forma interactiva.
