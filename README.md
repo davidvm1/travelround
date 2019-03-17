@@ -1,9 +1,14 @@
 ### Travelround
+
 **Materia:** Proyecto orientado en TIC
+
 **Nombre:** David Vieira Moreno
+
 **Correo:** david.vieira@upb.edu.co
-##Descripci髇: 
-Proyecto de desarrollo de aplicaci髇 para viajeros con funciones de
-organizaci髇 de informaci髇 y optimizaci髇 de esto de forma interactiva.
+
+##Descripci贸n: 
+
+Proyecto de desarrollo de aplicaci贸n para viajeros con funciones de
+organizaci贸n de informaci贸n y optimizaci贸n de esto de forma interactiva.
 
 
