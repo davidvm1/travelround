@@ -10,5 +10,6 @@
 
 Proyecto de desarrollo de aplicación para viajeros con funciones de
 organización de información y optimización de esto de forma interactiva.
+Desarrollo hecho con phonegap
 
 
