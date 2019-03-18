@@ -9,3 +9,11 @@ Pagina/package-lock.json
 Pagina/Web.config
 Pagina/Web.Debug.config
 Pagina/website.publishproj
+Travelround/hooks/*
+Travelround/platforms/*
+Travelround/plugins/*
+Travelround/config.xml
+Travelround/www/components/*
+Travelround/www/Web.config
+Travelround/www/Web.Debug.config
+
