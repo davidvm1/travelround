@@ -18,3 +18,15 @@
 .center-all {
     padding-top: 250px;
 }
+
+#logout {
+    width: 150px;
+}
+
+.rowlogout {
+
+    display: flex !important;
+    justify-content: center !important;
+}
+
+

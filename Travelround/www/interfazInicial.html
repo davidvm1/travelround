@@ -38,6 +38,11 @@
                             <br />
                             <a class="button button-round-md button-fill-md" id="signup" href="signup.html" onclick="window.location.href = 'signup.html';">Abrir Viaje</a>
                         </div>
+
+                    </div>
+                    <br />
+                    <div class="rowlogout">   
+                        <a class="button button-round-md button-fill-md" id="logout" onclick="logout()">Logout</a>
                     </div>
                 </div>
 
@@ -48,7 +53,6 @@
     <script type="text/javascript" src="js/framework7.bundle.min.js"></script>
     <!-- Path to your app js-->
     <script type="text/javascript" src="js/my-app.js"></script>
-
     <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase.js"></script>
     <script>
         // Initialize Firebase
@@ -62,5 +66,6 @@
         };
         firebase.initializeApp(config);
     </script>
+    <script type="text/javascript" src="js/InterfazInicial.js"></script>
 </body>
 </html>

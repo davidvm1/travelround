@@ -1,9 +1,19 @@
 ﻿
 firebase.auth().onAuthStateChanged(function (user) {
     if (user) {
-        window.alert("Logged In");
-    } else {
+       // window.alert("Logged In");
+        var user = firebase.auth().currentUser;
+
+        if (user != null) {
+
+            window.location.href = 'interfazInicial.html';
+
+        }
         
+    } else {
+
+       // window.alert("Logged Out");
+
     }
 });
 
@@ -22,6 +32,13 @@ function login() {
         // ...
     });
 
-    
+
 }
+
+
+/*function logout() {
+
+    firebase.auth().signOut();
+
+}*/
 
