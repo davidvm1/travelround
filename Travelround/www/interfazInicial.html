@@ -1,0 +1,66 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Color theme for statusbar -->
+    <meta name="theme-color" content="#2196f3">
+    <!-- Your app title -->
+    <title>Travelround</title>
+    <!-- Path to Framework7 Library Bundle CSS -->
+    <link rel="stylesheet" href="css/framework7.bundle.min.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/InterfazInicial.css">
+</head>
+<body>
+    <!-- App root element -->
+    <div id="app">
+        <!-- Statusbar overlay -->
+        <div class="statusbar"></div>
+
+        <!-- Your main view, should have "view-main" class -->
+        <div class="view view-main">
+            <!-- Initial Page, "data-name" contains page name -->
+            <div data-name="home" class="page">
+
+                <div class="center-all">
+                    <div class="row">
+                        <div class="col-100" id="colLogo">
+                            <img src="img/logoTravelRound.png" />
+                        </div>
+                    </div>
+
+                    <div class="block">
+                        <div class="row">
+                            <a class="button button-round-md button-fill-md" id="login" onclick="window.location.href = 'login.html';">Crear Viaje</a>
+                            <br />
+                            <a class="button button-round-md button-fill-md" id="signup" href="signup.html" onclick="window.location.href = 'signup.html';">Abrir Viaje</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- Path to Framework7 Library Bundle JS-->
+    <script type="text/javascript" src="js/framework7.bundle.min.js"></script>
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="js/my-app.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/5.9.1/firebase.js"></script>
+    <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyDc3tbBTQrgcjCvDRMgY1PYXBG8ssVaDxM",
+            authDomain: "travelroundid.firebaseapp.com",
+            databaseURL: "https://travelroundid.firebaseio.com",
+            projectId: "travelroundid",
+            storageBucket: "travelroundid.appspot.com",
+            messagingSenderId: "58993751940"
+        };
+        firebase.initializeApp(config);
+    </script>
+</body>
+</html>

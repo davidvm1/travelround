@@ -1,0 +1,20 @@
+﻿.page {
+    background-image: url('../img/montaña.jpg');
+    background-size: cover;
+}
+
+#login {
+    width: 150px;
+}
+
+#signup {
+    width: 150px;
+}
+
+#colLogo {
+    text-align: center;
+}
+
+.center-all {
+    padding-top: 250px;
+}
