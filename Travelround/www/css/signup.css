@@ -1,4 +1,9 @@
-﻿.login-wrap {
+﻿.tituloSignup {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+.login-wrap {
     width: 320px;
     margin: 0 auto;
     margin-top: 100px;
@@ -19,7 +24,7 @@
     width: 50%;
 }
 
-#botonLog {
+#botonSign{
     background-color: dodgerblue;
     border-color: dodgerblue;
 }

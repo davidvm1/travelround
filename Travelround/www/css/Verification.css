@@ -1,7 +1,12 @@
-﻿.tituloLogin {
+﻿.tituloVerification {
     display: flex !important;
     justify-content: center !important;
 }
+.parVerification {
+    display: flex !important;
+    justify-content: center !important;
+}
+
 .login-wrap {
     width: 320px;
     margin: 0 auto;
@@ -23,7 +28,13 @@
     width: 50%;
 }
 
-#botonLog {
+.Verif {
+    display: flex !important;
+    justify-content: center !important;
+}
+
+#botonVerif {
     background-color: dodgerblue;
     border-color: dodgerblue;
+    
 }
