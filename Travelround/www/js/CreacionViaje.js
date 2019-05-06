@@ -1,4 +1,18 @@
-﻿var inputLugar = document.getElementById("inputLugar");
+﻿const form = document.querySelector('#agregarViajes');
+
+form.addEventListener('submit', (e) => {
+
+    e.preventDefault();
+    db.collection('Viajes').add({
+
+        place: form.lugar.value
+
+    });
+
+});
+
+
+/*var inputLugar = document.getElementById("inputLugar");
 var botonCrear = document.getElementById("botonCrear");
 
 function crearViaje() {
@@ -8,4 +22,4 @@ function crearViaje() {
 
     database.push().set(lugar);
 
-}
+}*/

@@ -50,7 +50,8 @@
             messagingSenderId: "58993751940"
         };
         firebase.initializeApp(config);
-        var database = firebase.database();
+        const db = firebase.firestore();
+        db.settings({ timestampsInSnapshots: true });
     </script>
    
     <script src="js/VentanaViajes.js"></script>
