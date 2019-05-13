@@ -3,18 +3,21 @@
 //crear elementos y renderizar 
 function renderViajes(doc) {
 
-    let li = document.createElement('li');
-    let lugar = document.createElement('span');
-    let cross = document.createElement('div');
+    let a = document.createElement('a');
+    //let lugar = document.createElement('span');
+    let cross = document.createElement('button');
 
-    li.setAttribute('data-id', doc.id);
-    lugar.textContent = doc.data().place;
-    cross.textContent = 'x';
+    a.className += "list-group-item list-group-item-action";
+    a.setAttribute('href','#');
+    a.setAttribute('data-id', doc.id);
+    a.textContent = doc.data().place;
+    cross.className += "btn btn-danger";
+    cross.textContent = 'delete';
 
-    li.appendChild(lugar);
-    li.appendChild(cross);
+    //li.appendChild(lugar);
+    a.appendChild(cross);
 
-    listaViajes.appendChild(li);
+    listaViajes.appendChild(a);
 
     //borrar data
     cross.addEventListener('click', (e) => {
@@ -47,8 +50,8 @@ db.collection('Viajes').orderBy('place').onSnapshot(snapshot => {
 
         }
         else if (cambio.type == 'removed') {
-            let li = listaViajes.querySelector('[data-id=' + cambio.doc.id + ']');
-            listaViajes.removeChild(li);
+            let a = listaViajes.querySelector('[data-id=' + cambio.doc.id + ']');
+            listaViajes.removeChild(a);
         }
     });
 
