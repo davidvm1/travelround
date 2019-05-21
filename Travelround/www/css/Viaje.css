@@ -1,0 +1,39 @@
+﻿.page {
+    
+    background-image: url('../img/playa.jpg');
+    background-size: cover;
+}
+
+#login {
+    width: 150px;
+}
+
+#signup {
+    width: 150px;
+}
+
+#colLogo {
+    text-align: center;
+}
+
+#colLugar {
+    text-align: center;
+}
+
+#tituloViaje {
+
+    display:inline-block;
+}
+
+.center-all {
+    padding-top: 250px;
+}
+
+#logout {
+    width: 150px;
+}
+
+.rowlogout {
+    display: flex !important;
+    justify-content: center !important;
+}

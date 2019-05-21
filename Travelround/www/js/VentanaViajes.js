@@ -1,4 +1,7 @@
-﻿const listaViajes = document.querySelector('#listaViajes');
+﻿
+
+const listaViajes = document.querySelector('#listaViajes');
+
 
 //crear elementos y renderizar 
 function renderViajes(doc) {
@@ -8,9 +11,17 @@ function renderViajes(doc) {
     let cross = document.createElement('button');
 
     a.className += "list-group-item list-group-item-action";
-    a.setAttribute('href','#');
+    a.setAttribute('href', '#');
+    //a.setAttribute('onclick',"window.location.href = 'Viaje.html';")
     a.setAttribute('data-id', doc.id);
     a.textContent = doc.data().place;
+    a.onclick = function () {
+
+        variableLugar = doc.data().place;
+        localStorage.setItem("lugar", variableLugar);
+        window.location.href = 'Viaje.html';
+
+    };
     cross.className += "btn btn-danger";
     cross.textContent = 'delete';
 
