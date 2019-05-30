@@ -51,6 +51,8 @@
         };
         firebase.initializeApp(config);
         const db = firebase.firestore();
+        const storage = firebase.storage();
+
         db.settings({ timestampsInSnapshots: true });
     </script>
     <script src="js/Camara.js"></script>

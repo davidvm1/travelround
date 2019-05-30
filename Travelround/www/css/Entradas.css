@@ -1,0 +1,13 @@
+﻿.btn-danger {
+    margin-left: 125px;
+    margin-bottom: 10px;
+}
+
+.list-group-item {
+    font-family: 'Montserrat', sans-serif !important;
+    font-size: 20px !important;
+}
+
+.panel-title {
+    font-size: 40px;
+}

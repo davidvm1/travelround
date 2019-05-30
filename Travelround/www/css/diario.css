@@ -1,13 +1,13 @@
 ﻿.page {
-    background-image: url('../img/montana.jpg');
+    background-image: url('../img/piedra.jpg');
     background-size: cover;
 }
 
-#login {
+#crearEntrada{
     width: 150px;
 }
 
-#signup {
+#verEntrada {
     width: 150px;
 }
 
@@ -24,9 +24,6 @@
 }
 
 .rowlogout {
-
     display: flex !important;
     justify-content: center !important;
 }
-
-
